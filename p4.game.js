@@ -13,6 +13,7 @@ function clearBorad(){
 restart.addEventListener("click", clearBorad)
 
 // Check the square marker
+// 使用 this 完成效果
 function changeMarker(){
     if (this.textContent === ''){
         this.textContent = "O";
@@ -23,7 +24,7 @@ function changeMarker(){
     }
 }
 
-
+// 以First row & First column 練習效果
 // var cellone = document.querySelector("#one")
 // cellone.addEventListener("click", function(){
 //     if (cellone.textContent === ''){
